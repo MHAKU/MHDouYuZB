@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D284BF851FB034FB0052C17C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284BF841FB034FB0052C17C /* AppDelegate.swift */; };
-		D284BF871FB034FB0052C17C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284BF861FB034FB0052C17C /* ViewController.swift */; };
 		D284BF8A1FB034FB0052C17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D284BF881FB034FB0052C17C /* Main.storyboard */; };
 		D284BF8C1FB034FB0052C17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D284BF8B1FB034FB0052C17C /* Assets.xcassets */; };
 		D284BF8F1FB034FB0052C17C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D284BF8D1FB034FB0052C17C /* LaunchScreen.storyboard */; };
 		D284BF9A1FB034FB0052C17C /* DYZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284BF991FB034FB0052C17C /* DYZBTests.swift */; };
 		D284BFA51FB034FB0052C17C /* DYZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284BFA41FB034FB0052C17C /* DYZBUITests.swift */; };
+		D2D4FE671FB04AFC00D9AC5E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D4FE661FB04AFC00D9AC5E /* Home.storyboard */; };
+		D2D4FE691FB04B1A00D9AC5E /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D4FE681FB04B1A00D9AC5E /* Live.storyboard */; };
+		D2D4FE6B1FB04B5700D9AC5E /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D4FE6A1FB04B5700D9AC5E /* Follow.storyboard */; };
+		D2D4FE6D1FB04B9A00D9AC5E /* Prolife.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D4FE6C1FB04B9A00D9AC5E /* Prolife.storyboard */; };
+		D2D4FE6F1FB04CDE00D9AC5E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D4FE6E1FB04CDE00D9AC5E /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		D284BF811FB034FB0052C17C /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D284BF841FB034FB0052C17C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D284BF861FB034FB0052C17C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D284BF891FB034FB0052C17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D284BF8B1FB034FB0052C17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D284BF8E1FB034FB0052C17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		D284BFA01FB034FB0052C17C /* DYZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D284BFA41FB034FB0052C17C /* DYZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYZBUITests.swift; sourceTree = "<group>"; };
 		D284BFA61FB034FB0052C17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D4FE661FB04AFC00D9AC5E /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		D2D4FE681FB04B1A00D9AC5E /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		D2D4FE6A1FB04B5700D9AC5E /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		D2D4FE6C1FB04B9A00D9AC5E /* Prolife.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Prolife.storyboard; sourceTree = "<group>"; };
+		D2D4FE6E1FB04CDE00D9AC5E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				D284BF841FB034FB0052C17C /* AppDelegate.swift */,
-				D284BF861FB034FB0052C17C /* ViewController.swift */,
+				D2D4FE5B1FB0421700D9AC5E /* Classes */,
 				D284BF881FB034FB0052C17C /* Main.storyboard */,
 				D284BF8B1FB034FB0052C17C /* Assets.xcassets */,
 				D284BF8D1FB034FB0052C17C /* LaunchScreen.storyboard */,
@@ -123,6 +131,66 @@
 				D284BFA61FB034FB0052C17C /* Info.plist */,
 			);
 			path = DYZBUITests;
+			sourceTree = "<group>";
+		};
+		D2D4FE5B1FB0421700D9AC5E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D2D4FE5C1FB0421700D9AC5E /* Follow */,
+				D2D4FE5E1FB0421700D9AC5E /* Live */,
+				D2D4FE5D1FB0421700D9AC5E /* Home */,
+				D2D4FE611FB0421700D9AC5E /* Tools */,
+				D2D4FE5F1FB0421700D9AC5E /* Main */,
+				D2D4FE601FB0421700D9AC5E /* Prolife */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D2D4FE5C1FB0421700D9AC5E /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				D2D4FE6A1FB04B5700D9AC5E /* Follow.storyboard */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		D2D4FE5D1FB0421700D9AC5E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D2D4FE661FB04AFC00D9AC5E /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D2D4FE5E1FB0421700D9AC5E /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				D2D4FE681FB04B1A00D9AC5E /* Live.storyboard */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		D2D4FE5F1FB0421700D9AC5E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D2D4FE6E1FB04CDE00D9AC5E /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D2D4FE601FB0421700D9AC5E /* Prolife */ = {
+			isa = PBXGroup;
+			children = (
+				D2D4FE6C1FB04B9A00D9AC5E /* Prolife.storyboard */,
+			);
+			path = Prolife;
+			sourceTree = "<group>";
+		};
+		D2D4FE611FB0421700D9AC5E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +303,10 @@
 				D284BF8F1FB034FB0052C17C /* LaunchScreen.storyboard in Resources */,
 				D284BF8C1FB034FB0052C17C /* Assets.xcassets in Resources */,
 				D284BF8A1FB034FB0052C17C /* Main.storyboard in Resources */,
+				D2D4FE691FB04B1A00D9AC5E /* Live.storyboard in Resources */,
+				D2D4FE6D1FB04B9A00D9AC5E /* Prolife.storyboard in Resources */,
+				D2D4FE671FB04AFC00D9AC5E /* Home.storyboard in Resources */,
+				D2D4FE6B1FB04B5700D9AC5E /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +331,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D284BF871FB034FB0052C17C /* ViewController.swift in Sources */,
 				D284BF851FB034FB0052C17C /* AppDelegate.swift in Sources */,
+				D2D4FE6F1FB04CDE00D9AC5E /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6N68WHBMUU;
 				INFOPLIST_FILE = DYZB/Info.plist;
@@ -434,6 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.csscsr.emm.emmsdkdemo.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -444,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6N68WHBMUU;
 				INFOPLIST_FILE = DYZB/Info.plist;
@@ -451,6 +526,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.csscsr.emm.emmsdkdemo.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
